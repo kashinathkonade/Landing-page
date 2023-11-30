@@ -1,0 +1,20 @@
+<!-- templates/landing.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="landing-container">
+    <div class="landing-content">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Discover something amazing with our landing page.</p>
+      <a href="https://www.amazon.com/" class="btn">Learn More</a>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
